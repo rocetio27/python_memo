@@ -1,11 +1,11 @@
-'''
+```
 #Code below counts the number of charater 'a'
 nline=0
 file_object=open('mytext.txt','r',encoding='utf-8')
 for line in file_object:
     nline=nline+1
 print(nline)
-'''
+```
 
 '''
 #Code below prints mytext.txt line by line
