@@ -1,4 +1,4 @@
-```
+```python
 #Code below counts the number of charater 'a'
 nline=0
 file_object=open('mytext.txt','r',encoding='utf-8')
