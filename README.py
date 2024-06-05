@@ -1,18 +1,39 @@
-```python
+#iteration code
+for i in range(7):
+    print(i)
+for i in [0,1,2,3,4,5,6]:
+    print(i)
+
+for i in range(0,7):
+    print(i)
+for i in [0,1,2,3,4,5,6]:
+    print(i)
+
+for i in range(0,7,2):
+    print(i)
+for i in [0,2,4,6]:
+    print(i)
+
+for s in ['aa','bb','cc','dd']:
+    print(i)
+for s in 'abcde':
+    print(i)
+
 #Code below counts the number of charater 'a'
 nline=0
 file_object=open('mytext.txt','r',encoding='utf-8')
 for line in file_object:
     nline=nline+1
-print(nline)
-```
+    print(nline)
 
-'''
 #Code below prints mytext.txt line by line
 file_object=open('mytext.txt','r',encoding='utf-8')
 for line in file_object:
     print(line)
-'''
+
+#Code below prints mytext.txt line by line
+for line in ['The sun sets beautifully over the horizonA.\n','She enjoys reading books in her free timeAA.\n','Our cat loves playing with a ball of yarnAAA.\n']:
+    print(line)
 
 #Code below prints mytext.txt line by line without right whitespace
 file_object=open('mytext.txt','r',encoding='utf-8')
@@ -72,7 +93,6 @@ while n<10:
        continue
     print(n)
 
-
 #Code below receives input and calculates the sum and average
 count=0
 sum_of_nums=0
@@ -90,5 +110,4 @@ print('mean:',mean)
 #Calculate remainder of x / y
 def remainder(x,y):
     return x%y
-
 print(remainder(17,3))
